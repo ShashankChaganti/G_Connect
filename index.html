@@ -1,0 +1,128 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <title>G Connect</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Reddit+Mono:wght@200..900&display=swap');
+    a:link,
+    a:visited {
+        color: inherit; 
+        text-decoration: none;
+    }
+
+    a:hover,
+    a:focus,
+    a:active {
+        color: inherit; 
+        text-decoration: none; 
+    }
+    h1 {text-align: center;}
+</style>
+</head>
+<body>
+    <div class="banner">
+        <div class="left-box">
+            <img src="gl.png" class="logo" alt="Logo">
+            <div class="wrapper">
+                <div class="search-box">
+                    <img src="search.png" alt="Search Icon">
+                    <input type="text" placeholder="Search...">
+                </div>
+                <ul class="sections">
+                        <h1>G-Space</h1>
+                    <li><a href="biotechnology.html">Biotechnology</a></li>
+                    <li><a href="civil_engineering.html">Civil Engineering</a></li>
+                    <li><a href="computer_science_engineering.html">Computer Science and Engineering</a></li>
+                    <li><a href="electrical_electronics_communications.html">Electrical, Electronics and Communications Engineering</a></li>
+                    <li><a href="mechanical_engineering.html">Mechanical Engineering</a></li>
+                    <li><a href="artificial_intelligence_data_science.html">Artificial Intelligence and Data Science</a></li>
+                    <li><a href="physics.html">Physics</a></li>
+                    <li><a href="life_sciences.html">Life Sciences</a></li>
+                    <li><a href="mathematics.html">Mathematics</a></li>
+                </ul>
+                
+            </div>
+        </div>
+        <div class="right-box">
+            <div id="wrapper">
+                <header>
+                    <div class="logo">
+                        <a href="/">Gitam Connect</a>
+                    </div>
+                    <small>An Online Interactive Community For Gitamites</small>
+                    <ul class="nav-links">
+                        <li><a href="#">Home</a></li>
+                        <li><a href="home.html">About US</a></li>
+                        <li><a href="profile.html">Profile</a></li>
+                    </ul>
+                </header>
+                <main>
+                    <div class="posts-header">
+                        <h1>Posts</h1>
+                        <button id="show-add-post-modal-btn">Add Post</button>
+                    </div>
+                    <div id="posts-container"></div>
+                </main>
+                
+                <div id="add-post-modal" class="modal">
+                    <div class="modal-content">
+                    
+                        <form id="add-post-form">
+                            <div class="form-group">
+                                <label for="title">Title</label>
+                                <input type="text" id="title" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="content">Content</label>
+                                <textarea id="content" rows="10" required></textarea>
+                            </div>
+                            <button type="submit">Add Post</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="locations-section">
+        <div class="locations">
+            <h2>Gitam University Locations</h2>
+            <ul>
+                <li><a href="https://www.gitam.edu/academics/gitam-campuses/visakhapatnam-campus">Visakhapatnam Campus</a></li>
+                <li><a href="https://www.gitam.edu/academics/gitam-campuses/hyderabad-campus">Hyderabad Campus</a></li>
+                <li><a href="https://www.gitam.edu/academics/gitam-campuses/bengaluru-campus">Bangalore Campus</a></li>
+                <li><a href="https://www.gitam.edu/academics/gitam-campuses/gimsr-campus">Gimsr Campus</a></li>
+            </ul>
+        </div>
+    
+        <div class="locations">
+            <h2>Disciplines</h2>
+            <ul>
+                <li><a href="https://gsa.gitam.edu/">Architecture</a></li>
+                <li><a href="https://www.gitam.edu/academics/disciplines/engineering">Engineering</a></li>
+                <li><a href="https://www.gitam.edu/academics/disciplines/law">Law</a></li>
+                <li><a href="https://www.gitam.edu/academics/disciplines/management">Management</a></li>
+            </ul>
+        </div>
+    
+        <div class="locations">
+            <h2>Campus Life</h2>
+            <ul>
+                <li><a href="https://www.gitam.edu/campus-life/student-life">Student Life</a></li>
+                <li><a href="https://www.gitam.edu/campus-life/sports">Sports</a></li>
+                <li><a href="https://www.gitam.edu/campus-life/hospitality/campus-dining">Dining</a></li>
+                <li><a href="https://www.gitam.edu/campus-life/safety-security">Security</a></li>
+            </ul>
+        </div>
+    </div>
+    
+    
+    <div class="footer">
+        <div>
+            <h1> Gitam Connect </span></h1>
+            <p>Your Online Community Made Exclusively For Gitamites</p>
+        </div>
+    <script src="app.js"></script>
+</body>
+</html>
