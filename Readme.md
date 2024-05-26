@@ -9,3 +9,7 @@ Screenshots-
 ![Screenshot 2024-05-26 at 5 25 53 PM](https://github.com/ShashankChaganti/G_Connect/assets/146160515/73d7af2b-382b-47f1-9a63-4fe9ee1ffeb7)
 
 ![Screenshot 2024-05-26 at 5 28 09 PM](https://github.com/ShashankChaganti/G_Connect/assets/146160515/1c1a6e32-e7b5-4992-a9ea-d34c77eabb3f)
+
+
+![Screenshot 2024-05-26 at 5 33 39 PM](https://github.com/ShashankChaganti/G_Connect/assets/146160515/92aa354c-a4af-4cda-9b76-15073767d106)
+![Screenshot 2024-05-26 at 5 32 54 PM](https://github.com/ShashankChaganti/G_Connect/assets/146160515/49ce1829-d545-413a-b66f-ee877a27c133)
