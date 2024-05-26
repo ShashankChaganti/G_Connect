@@ -1,0 +1,4 @@
+create table users(
+fname varchar(20),lname varchar(20),
+email varchar(30),userid varchar(20),
+password varchar(20),mobile varchar(20))
